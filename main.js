@@ -54,7 +54,7 @@ class GameScene extends Phaser.Scene {
     // speed ramp
     this.baseSpeed = 520;
     this.speed = this.baseSpeed;
-    this.speedMax = 1500;
+    this.speedMax = 1800;
     this.speedRampPerSec = 6.0;
 
     // spawn tuning
