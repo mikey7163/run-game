@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>RUNNER</title>
+  <style>
+    html, body { margin:0; padding:0; background:#000; height:100%; overflow:hidden; }
+    #game { width:100vw; height:100vh; }
+    .hint { position:fixed; left:12px; bottom:10px; color:#9aa0a6; font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial; font-size:12px; opacity:0.9; }
+    a { color:#9aa0a6; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <div class="hint">Controls: ←/A →/D to change lanes • ↑/W/Space jump • ↓/S slide • Mobile: swipe</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
